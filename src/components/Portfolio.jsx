@@ -1,7 +1,7 @@
 import React from "react";
-import word from "../assets/portfolio/word.jpg"
-import stock from "../assets/portfolio/stock.jpg"
-import open from "../assets/portfolio/open.jpeg"
+import word from "../assets/portfolio/word.jpg";
+import stock from "../assets/portfolio/stock.jpg";
+import open from "../assets/portfolio/open.jpeg";
 
 const Portfolio = () => {
   const portfolios = [
@@ -41,14 +41,14 @@ const Portfolio = () => {
               <img
                 src={src}
                 alt={`Project ${id}`}
-                className="rounded-md duration-200 hover:scale-105"
+                className="rounded-md duration-200 hover:scale-105 w-full h-64 object-cover"
               />
               <div className="flex items-center justify-center">
                 <a 
                   href={url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
+                  className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 text-center"
                 >
                   Code
                 </a>
