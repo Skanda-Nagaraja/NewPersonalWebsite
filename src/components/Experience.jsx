@@ -1,13 +1,14 @@
 import React from "react";
-
 import html from "../assets/html.png";
 import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
 import reactImage from "../assets/react.png";
-import swift from "../assets/sw.png"
-import tf from "../assets/tf.png"
-import c from "../assets/c.png"
-import py from "../assets/py.png"
+import swift from "../assets/sw.png";
+import tf from "../assets/tf.png";
+import cpp from "../assets/c.png"; // Update the import to the C++ image
+import py from "../assets/py.png";
+import azure from "../assets/ado.png"; 
+import mongodb from "../assets/mongodb.png"; // Add the MongoDB image
 
 const Experience = () => {
   const techs = [
@@ -36,31 +37,41 @@ const Experience = () => {
       style: "shadow-blue-600",
     },
     {
-      id: 6,
+      id: 5,
       src: swift,
       title: "Swift",
       style: "shadow-orange-400",
     },
     {
-      id: 7,
+      id: 6,
       src: tf,
-      title: "Tensorflow",
+      title: "TensorFlow",
       style: "shadow-orange-400",
     },
     {
-      id: 8,
-      src: c,
-      title: "C",
+      id: 7,
+      src: cpp, 
+      title: "C++",
       style: "shadow-blue-400",
     },
     {
-      id: 9,
+      id: 8,
       src: py,
       title: "Python",
       style: "shadow-yellow-400",
-    }
-
-    
+    },
+    {
+      id: 9,
+      src: azure, // Add the Azure DevOps image
+      title: "Azure DevOps",
+      style: "shadow-blue-400",
+    },
+    {
+      id: 10,
+      src: mongodb, // Add the MongoDB image
+      title: "MongoDB",
+      style: "shadow-green-400",
+    },
   ];
 
   return (
@@ -73,7 +84,10 @@ const Experience = () => {
           <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">
             Experience
           </p>
-          <p className="py-6">These are the technologies I've worked with</p>
+          <p className="py-6">
+            These are the technologies I've worked with. I am constantly seeking
+            to expand my skill set and grow as a developer.
+          </p>
         </div>
 
         <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">

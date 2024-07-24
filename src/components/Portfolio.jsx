@@ -8,16 +8,19 @@ const Portfolio = () => {
     {
       id: 1,
       src: word,
+      title: "Wordle with JavaFX",
       url: 'https://github.com/Skanda-Nagaraja/CSCE314-Wordle'
     },
     {
       id: 2,
       src: stock,
+      title: "Stock Sentiment Analysis Tool",
       url: 'https://github.com/Skanda-Nagaraja/StockVibes'
     },
     {
       id: 3,
       src: open,
+      title: "Automatic SQL Query Generator",
       url: 'https://github.com/Skanda-Nagaraja/SQLquery-Site'
     }    
   ];
@@ -36,13 +39,14 @@ const Portfolio = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src, url }) => (
+          {portfolios.map(({ id, src, title, url }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
                 alt={`Project ${id}`}
                 className="rounded-md duration-200 hover:scale-105 w-full h-64 object-cover"
               />
+              <div className="text-center text-xl font-semibold my-2">{title}</div>
               <div className="flex items-center justify-center">
                 <a 
                   href={url}
