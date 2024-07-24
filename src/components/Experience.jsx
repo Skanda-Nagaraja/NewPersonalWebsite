@@ -7,7 +7,7 @@ import swift from "../assets/sw.png";
 import tf from "../assets/tf.png";
 import cpp from "../assets/c.png"; // Update the import to the C++ image
 import py from "../assets/py.png";
-import azure from "../assets/ado.png"; 
+import azure from "../assets/ado.svg"; 
 import mongodb from "../assets/mongodb.png"; // Add the MongoDB image
 
 const Experience = () => {
