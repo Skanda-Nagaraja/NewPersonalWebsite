@@ -12,7 +12,7 @@ const Home = () => {
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
           <h2 className="text-4xl sm:text-7xl font-bold text-white">
-            Howdy & Welcome! My name is Skanda Nagaraja. 
+            Welcome! My name is Skanda Nagaraja. 
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
             I am a driven third-year Computer Science student at Texas A&M University, with a deep-seated passion for the burgeoning field of Artificial Intelligence, particularly at the intersection of technology and finance. My academic journey and projects have equipped me with a robust understanding of various programming languages and AI methodologies. Motivated by the potential to revolutionize financial technologies, I am keen to contribute to groundbreaking innovations. Whether building them from scratch or improving existing frameworks, I am on the quest to be at the forefront of the next big advancement in tech.
